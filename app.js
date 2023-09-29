@@ -8,9 +8,6 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var mobileRouter = require('./routes/mobile'); //khai báo routes
 
-var hbs = require('hbs');
-hbs.registerHelper('dateFormat', require('handlebars-dateformat')); 
-
 var app = express();
 
 //import & config thư viện body-parser (lấy dữ liệu từ form)
