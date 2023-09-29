@@ -1,0 +1,31 @@
+<table class="table table-primary col-md-6">
+   <tr>
+      <th class="text text-bg-success" colspan="2">MOBILE INFO</th>
+   </tr>
+   <tr>
+      <th>Brand</th>
+      <td>{{ mobile.brand }}</td>
+   </tr>
+   <tr>
+      <th>Model</th>
+      <td>{{ mobile.model }}</td>
+   </tr>
+   <tr>
+      <th>Price</th>
+      <td>${{ mobile.price }}</td>
+   </tr>
+   <tr>
+      <th>Quantity</th>
+      <td>{{ mobile.quantity }}</td>
+   </tr>
+   <tr>
+      <th>Type</th>
+      <td>{{ mobile.type }}</td>
+   </tr>
+   <tr>
+      <th>Image</th>
+      <td>
+         <img src="{{ mobile.image }}" width="200" height="200">
+      </td>
+   </tr>
+</table>
